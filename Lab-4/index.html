@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab-4</title>
+</head>
+<body>
+  <h1>Моя перша HTML-форма</h1>
+  <form action="https://httpbin.org/post" method="POST">
+    <label>
+     <br>Імʼя:
+     <input type="text" name="firstname">
+    </label><br><br>
+    <label>
+      <br>Дата народження:
+      <input type="date" name="data">
+    </label><br><br>
+    <label>
+      <br>Емаіл:
+      <input type="email" name="Email">
+    </label><br><br>
+    <label><br>Повідомлення:
+      <textarea name="message" cols="20" rows="3"></textarea>
+    </label><br><br><b>Ваші улюблені напої?</b><br> 
+    <label>
+    <input type="checkbox" name="tea">Чай<br>
+    </label>
+    <label>
+     <input type="checkbox" name="coffe">Кава<br>
+    </label>
+    <label>
+    <input type="checkbox" name="juice">Сік<br>
+    </label>
+     <label>
+     <input type="checkbox" name="Carbonated drinks">Газировані напої
+     </label><br><b>Моя національність</b><br>
+    <laben>
+    <input type="radio" name="national">Українець(ка)
+    </laben><br>
+     <laben>
+        <input type="radio" name="national">Американець(ка)
+         </laben><br>
+     <laben>
+       <input type="radio" name="national">Німець(ка)
+        </laben><br>
+    <button type="submit">Надіслати</button>
+    <button type="reset">Очистити</button>
+    <br><br>
+  </form>
+  <picture>
+        <source srcset="https://picsum.photos/300/500" media="(max-width: 468px)">
+        <source srcset="https://picsum.photos/1000/400" media="(min-width: 469px)">
+        <img src="https://picsum.photos/1000/400" alt="Description of the image">
+    </picture>
+</body>
+</html>
