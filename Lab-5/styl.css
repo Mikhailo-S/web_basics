@@ -1,0 +1,75 @@
+h1
+{
+  text-transform: uppercase
+}
+
+ #fat
+{
+color: #FF0000
+}
+
+#fat
+ {
+    background-color: yellow;
+    font-style: italic;
+}
+
+ol
+{
+    border: 1px solid red
+}
+
+#main-title 
+{
+    color: green;
+}
+
+a[href$=".pdf"] 
+{
+    color: green;
+    font-style: italic;
+}
+
+a {
+    color: violet;
+    text-decoration: none;
+}
+
+ol ol, 
+ul ul
+{
+    text-transform: uppercase;
+}
+
+p a
+{
+    color: magenta;
+    background-color: mistyrose;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.bold li
+{
+    text-transform: uppercase;
+}
+
+p.log
+{
+    text-align: right;
+    border: 1px solid blue;
+    font-size: 20px;
+}
+
+span {
+    background-color: yellow; 
+    display: inline-block;
+    padding: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
