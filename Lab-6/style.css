@@ -29,7 +29,7 @@ body {
     line-height: 2;
   }
   
-  .mail-box {
+  .mail {
     width: 150px;
     background-color: #E3FFF6;
     border: 5px solid #C2E4C2;
@@ -42,11 +42,11 @@ body {
     box-sizing: border-box;
   }
   
-  .mail-box {
+  .mail {
     word-wrap: break-word;
   }
   
-  .mail-box a {
+  .mail a {
     display: block;
   }
   

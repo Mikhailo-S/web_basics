@@ -1,7 +1,3 @@
-h1
-{
-  text-transform: uppercase
-}
 
  #fat
 {
@@ -22,6 +18,7 @@ ol
 #main-title 
 {
     color: green;
+    text-transform: uppercase
 }
 
 a[href$=".pdf"] 
@@ -35,7 +32,6 @@ a {
     text-decoration: none;
 }
 
-ol ol, 
 ul ul
 {
     text-transform: uppercase;
@@ -52,7 +48,7 @@ p a
     font-weight: bold;
 }
 
-.bold li
+li .bold
 {
     text-transform: uppercase;
 }
