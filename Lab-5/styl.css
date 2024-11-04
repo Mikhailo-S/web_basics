@@ -4,7 +4,7 @@
 color: #FF0000
 }
 
-#fat
+ol ol:first-child
  {
     background-color: yellow;
     font-style: italic;
@@ -15,7 +15,7 @@ ol
     border: 1px solid red
 }
 
-#main-title 
+.main-title 
 {
     color: green;
     text-transform: uppercase
